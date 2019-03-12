@@ -1,0 +1,283 @@
+
+.social {
+    display: flex;
+}
+input#search {
+    width: 330px;
+    height: 52px;
+    background: #EEEEEE;
+    border: 0px;
+}
+
+.icons i {
+    padding: 20px;
+    background: #bbb;
+}
+
+i.dbtn {
+    background: #ff8843;
+    font-family: -webkit-pictograph;
+    font-weight: 700;
+    color: white;
+}
+
+i.fab.fa-facebook-f:hover {
+    background: #3B5998;
+}
+
+.fa-twitter:hover{
+    background: #00B6F1;
+}
+.fa-youtube:hover{
+    background: #B31217;
+}
+ .fa-pinterest:hover{
+    background: #CB2027;
+ }
+.fa-instagram:hover{
+    background: #C32AA3;
+}
+i.fas.fa-search {
+    background: #464444;
+    color: white;
+}
+
+div#navbarNav {
+    justify-content: center;
+}
+
+a.nav-link.waves-effect {
+    color: black;
+    font-size: 21px;
+}
+
+.navb{
+    margin-top: 25px;
+}
+.navbar{
+    box-shadow: 0 0 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .social {
+      display :none
+    }
+    .rows {
+        display: block !important;
+    }
+    .grid, .grid1{
+        width: 100% !important;
+    }
+    .inner{
+
+        padding: 51px 10px !important;
+    }
+    i.fas.fa-allergies, i.far.fa-heart, i.fab.fa-alipay {
+        left: 170px !important;
+    }
+    .foot-logo{
+        width: 78%;
+    }
+  }
+
+  .main-img {
+    background-image: url(/img/main.jpg);
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+.main-inner{
+position: absolute;
+bottom: 0;
+right: 10px;
+height: 265px;
+background-color: #00c4ffbf;
+}
+
+.don{
+    padding: 25px;
+    color: white;
+}
+
+h4.btn{
+    background: white;
+    color: #00abff;
+    font-size: 14px;
+    padding: 9px;
+    font-weight: 700;
+    display: inline-table;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+img.home-img {
+    height: 160px;
+}
+
+.spacer{
+    margin: 75px;
+}
+
+h1.boldh1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.btn-outline-success {
+    border: 2px solid #c2c7c4cf!important;
+}
+
+button.btn.aw.waves-effect.waves-light {
+    color: #00b3db;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid #a5a3a3;
+}
+
+.grid, .grid1{
+    width: 50%;
+}
+.first{
+    height: 320px;
+    position: relative;
+    background-color: #9C3237;
+}
+
+
+.inner{
+
+    padding: 51px 100px;
+}
+.inner h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+.inner p{
+    color: white;
+    font-size: 18px;
+}
+
+input.zipcode {
+    border: 4px solid white;
+    background: #a13537;
+    height: 55px;
+}
+
+i.zip-search.active {
+    background: white;
+    padding: 18px;
+    font-weight: 600;
+    color: #a13537;
+    margin-left: -3px;
+}
+
+i.fas.fa-allergies, i.far.fa-heart, i.fab.fa-alipay {
+    position: absolute;
+    top: 53px;
+    color: white;
+    left: 35px;
+    font-size: 44px;
+}
+
+.more {
+    color: white;
+}
+
+.second{
+    height: 320px;
+    position: relative;
+    background-color: #e66239;
+}
+.third{
+    height: 320px;
+    position: relative;
+    background-image: url(/img/tierd.jpg);
+}
+
+input.donate {
+    border: 4px solid white;
+    background: #e66239;
+    color: #e66239;
+    height: 55px;
+}
+
+.third-inner {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 38px;
+}
+.third-inner h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+
+.g1 img{
+    height: 656px;
+    width: 100%;
+}
+.gs{
+    background-color: #002F6C;
+    position: relative;
+}
+
+
+input.Subscribe {
+    border: 4px solid white;
+    background: #002F6C;
+    color: #e66239;
+    height: 55px;
+}
+.card-body{
+background-color: #0099CC;
+}
+.card-bg2{
+ background-color: #3AA047;   
+}
+
+.card-text{
+    color: white !important;
+}
+.card-title{
+    font-size: 28px;
+    color: white !important;
+}
+
+.card-bg4{
+    background-color: #A4343A;
+}
+.section5 h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.center {
+    text-align: center;
+}
+
+ul.foot-menu {
+    list-style: none;
+}
+
+ul.foot-menu > :first-child {
+
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .foot-smenu{
+    margin-top: 30px;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+  
